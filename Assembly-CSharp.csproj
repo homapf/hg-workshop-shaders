@@ -54,17 +54,13 @@
   <ItemGroup>
      <Compile Include="Assets\MorphUseCase\Morph.cs" />
      <Compile Include="Assets\Paint\Paint.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\InstancedIndirectGrassPosDefine.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\TestScene\RotateLight.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\TestScene\ApplicationFPS60.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\GrassBending\GrassBendingRTPrePass.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\InstancedIndirectGrassRenderer.cs" />
-     <Compile Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\TestScene\MoveCamera.cs" />
-     <None Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\GrassBending\GrassBendingRTPrePassTrailShader.shader" />
+     <Compile Include="Assets\PropertyBlocks\PropertyBlockDemo.cs" />
+     <Compile Include="Assets\PropertyBlocks\SpawnALot.cs" />
+     <None Include="Assets\Common\DanishStatues\Acknowledgement.txt" />
+     <None Include="Assets\Common\UnityHDRI\MuirWood\Info.txt" />
+     <None Include="Assets\Common\CC0Textures\Acknowledgement.txt" />
      <None Include="Assets\Includes\CustomLighting.hlsl" />
-     <None Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\InstancedIndirectGrass.shader" />
-     <None Include="Assets\URPMobileGrassInstancedIndirectDemo\InstancedIndirectGrass\Core\CullingCompute.compute" />
-     <None Include="Assets\URPMobileGrassInstancedIndirectDemo\SkyBox\SkyBox.shader" />
+     <None Include="Assets\Common\Poly\Acknowledgement.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
