@@ -52,9 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MorphUseCase\Morph.cs" />
-     <Compile Include="Assets\Paint\Paint.cs" />
      <Compile Include="Assets\PropertyBlocks\PropertyBlockDemo.cs" />
+     <Compile Include="Assets\3D\Morph\Morph.cs" />
+     <Compile Include="Assets\RenderTexture\Custom\Paint.cs" />
      <Compile Include="Assets\PropertyBlocks\SpawnALot.cs" />
      <None Include="Assets\Common\DanishStatues\Acknowledgement.txt" />
      <None Include="Assets\Common\UnityHDRI\MuirWood\Info.txt" />
@@ -693,6 +693,9 @@
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>/Users/paulfigiel/Projects/ShaderWorkshop/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+ <HintPath>/Users/paulfigiel/Projects/ShaderWorkshop/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>/Users/paulfigiel/Projects/ShaderWorkshop/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
